@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Cuppon Desafio Latam" author="Diego Reyes">
+    <title>Cuppon</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <main class="caja-principal">
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span class="titulo">CUPPON</span> </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="titulo">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- cards -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_01.jpeg" class="card-img-top" alt="plumon" width="200" height="300"/>
+            <div class="card-body">
+              <h5 class="card-title">Plumón blanco + sábana 144 hilos 2 plazas.</h5>
+              <span class="direccion">home coleccion</span><br>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="direccion">av vicuña mackenna 1700, Chile</span>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$49.99</span> <span class="ofer">$29.99</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_02.png" class="card-img-top" alt="pizza" width="200" height="300" />
+            <div class="card-body">
+              <h5 class="card-title">Pizza con peperoni extra queso + bebestible a gusto.</h5>
+              <span class="direccion">Papa Jhon</span><br>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="direccion">Vitacura 888, Chile</span>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$30.99</span> <span class="ofer">$14.99</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_03.jpeg" class="card-img-top" alt="Clinica Dental" width="200" height="300"/>
+            <div class="card-body">
+              <h5 class="card-title">Evaluacion dental + blanquiamiento + limpieza bucal.</h5>
+              <span class="direccion">Clinica Dental Diego Reyes</span><br>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="direccion">Recoleta 1234, Chile.</span>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$30.00</span> <span class="ofer">$25.99</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_04.webp" class="card-img-top" alt="comida rapida" width="200" height="300"/>
+            <div class="card-body">
+              <h5 class="card-title">Combo Hamburgesa + papas fritas (sin bebestible).</h5>
+              <span class="direccion">Donde el Abuelo</span><br>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="direccion">AV Grecia 321, Chile</span>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$4.20</span> <span class="ofer">$2.10</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_05.jpeg" class="card-img-top" alt="Heladeria" width="200" height="300" />
+            <div class="card-body">
+              <h5 class="card-title">Helados de diversos sabores.</h5>
+              <span class="direccion">Sagory</span><br>
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="direccion">Renca 657, Chile.</span>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$4.00</span> <span class="ofer">$2.50</span></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/img/imagen_06.jpeg" class="card-img-top" alt="Valdivia" width="200" height="300"/>
+            <div class="card-body">
+              <h5 class="card-title">Valdivia: 1 o 2 Noches</h5>
+              <span class="direccion">AIRBENB</span><br>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><span class="direccion">$80.20</span> <span class="ofer">$44.10</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <form class="footer bg-success">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Recibe Cupones en tu Correo</label
+          >
+          <input
+            placeholder="tu e-mail"
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3 form-check">
+          <label for="exampleInputPassword1" class="form-label"></label>
+          <input
+            placeholder="tu nombre"
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <label class="form-check-label" for="exampleCheck1"></label>
+        </div>
+        <button type="submit" class="btn btn-light">Enviar</button>
+      </form>
+        <div class="finale">
+         <h2>CUPPON</h2>
+         <i class="fas fa-copyright"></i>Cuppon latam, Todos los derechos reservados.
+        </div>
+  </body>
+</html>

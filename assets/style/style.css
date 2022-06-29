@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    width: 100%;
+}
+.titulo, 
+.nav-link, 
+.nav-link {
+    color: #FFFFFF;
+}
+.nav.brand {
+    font-family: 500;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
+.body {
+    max-width: 1200px;
+}
+.card-footer {
+    text-align: right;
+}
+.ofer{
+    color: rgb(42, 169, 127);
+    font-size: 20px;
+    padding-left: 20px;
+}
+.footer {
+    text-align: center;
+}
+.form-check {
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    margin-bottom: 1em;
+}
+.form-label {
+    color: #FFFFFF;
+    margin: 1em;
+    padding: 0;
+}
+.direccion {
+    color: #9f9d9d;
+}
+.finale {
+    text-align: center;
+    padding: 3em;
+}
